@@ -23,7 +23,7 @@ This repository contains code and reproducibility materials for a study of physi
 │   └── 07_montana_stress_test.ipynb
 └── data/
     └── README.md
-````
+```
 
 ## Computational Workflow
 
@@ -31,16 +31,16 @@ The executed notebooks in the `notebooks/` directory are the primary computation
 
 They contain the complete experiment workflows, including:
 
-* ERA5 data acquisition and loading
-* atmospheric data preprocessing
-* observation and sensor selection
-* experiment construction
-* baseline model training
-* PINN model training
-* physics-informed loss evaluation
-* short-horizon temperature prediction
-* performance evaluation
-* saved outputs from the original study runs
+- ERA5 data acquisition and loading
+- atmospheric data preprocessing
+- observation and sensor selection
+- experiment construction
+- baseline model training
+- PINN model training
+- physics-informed loss evaluation
+- short-horizon temperature prediction
+- performance evaluation
+- saved outputs from the original study runs
 
 The notebooks are intentionally provided with their saved outputs so that the results produced during the original experiments can be inspected without first rerunning the full computations.
 
@@ -84,15 +84,15 @@ pip install -r requirements.txt
 
 The study uses Python packages including:
 
-* PyTorch
-* NumPy
-* pandas
-* xarray
-* SciPy
-* Matplotlib
-* netCDF4
-* h5netcdf
-* cdsapi
+- PyTorch
+- NumPy
+- pandas
+- xarray
+- SciPy
+- Matplotlib
+- netCDF4
+- h5netcdf
+- cdsapi
 
 The exact versions of all packages in the original GPU runtime were not recorded. Therefore, package versions that cannot be verified are not artificially pinned.
 
@@ -114,10 +114,10 @@ The complete experiments were not independently rerun in a new clean computing e
 
 The `src/` directory contains extracted implementations of the main computational components used in the study:
 
-* `models.py` — neural-network model definitions
-* `physics.py` — thermodynamic and physics-informed residual components
-* `training.py` — baseline and PINN training routines
-* `evaluation.py` — prediction and evaluation utilities
+- `models.py` — neural-network model definitions
+- `physics.py` — thermodynamic and physics-informed residual components
+- `training.py` — baseline and PINN training routines
+- `evaluation.py` — prediction and evaluation utilities
 
 These files are provided primarily for easier inspection and reuse of the core methodology.
 
@@ -132,4 +132,3 @@ Sensitive authentication information, including personal CDS API credentials, ha
 ## Citation
 
 Citation information will be added after publication or assignment of a manuscript or preprint DOI.
-
