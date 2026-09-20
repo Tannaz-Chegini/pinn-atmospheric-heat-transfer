@@ -1,0 +1,10 @@
+cdsapi>=0.7.7
+numpy
+pandas
+xarray
+scipy
+matplotlib
+torch
+netCDF4
+h5netcdf
+ipython
