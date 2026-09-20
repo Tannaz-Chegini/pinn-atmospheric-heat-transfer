@@ -133,7 +133,3 @@ Sensitive authentication information, including personal CDS API credentials, ha
 
 Citation information will be added after publication or assignment of a manuscript or preprint DOI.
 
-```
-
-That is the exact version to use.
-```
