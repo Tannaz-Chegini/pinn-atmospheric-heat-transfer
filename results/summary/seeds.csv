@@ -1,0 +1,17 @@
+Season,Region,Setting,Seed_diff_K,SD_across_origins_K,I_seed101_pct,Best_other_seed101,I_seed202_pct,Best_other_seed202
+summer,AL,all,0.0372,0.1674,3.5123,TendencyNN,4.9741,TendencyNN
+summer,AL,s10,0.0444,0.1629,10.2422,Persistence,10.3095,Persistence
+summer,MT,all,0.0817,0.5360,-8.9218,TendencyNN,-12.4251,TendencyNN
+summer,MT,s10,0.0710,0.4863,4.9764,Persistence,4.5776,Persistence
+summer,OK,all,0.0476,0.2795,17.0056,TendencyNN,15.5299,TendencyNN
+summer,OK,s05,0.0412,0.2816,22.3163,Solver,22.6793,Solver
+summer,OK,s10,0.0453,0.2799,19.6894,TendencyNN,22.2433,Solver
+summer,OK,s25,0.0459,0.2801,16.6084,TendencyNN,21.3656,Solver
+winter,AL,all,0.0561,0.4290,12.5572,TendencyNN,17.9470,TendencyNN
+winter,AL,s10,0.0611,0.4171,15.3501,TendencyNN,22.3062,TendencyNN
+winter,MT,all,0.1175,0.9712,-72.1016,TendencyNN,-59.6076,TendencyNN
+winter,MT,s10,0.1066,0.9227,-97.4932,TendencyNN,-87.2511,TendencyNN
+winter,OK,all,0.0613,0.4807,14.7691,Solver,15.7063,Solver
+winter,OK,s05,0.0501,0.5154,8.9781,Solver,9.9083,Solver
+winter,OK,s10,0.0643,0.5165,12.8709,Solver,12.7595,Solver
+winter,OK,s25,0.0533,0.5247,11.9704,Solver,12.4750,Solver
