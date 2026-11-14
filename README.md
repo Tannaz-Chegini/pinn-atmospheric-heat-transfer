@@ -3,7 +3,7 @@
 Code, results and analysis scripts for the paper
 
 > **Sparse-Observation Atmospheric Thermal Forecasting with Physics-Informed Neural Networks for Climate-Aware Digital Twins**
-> T. Goodarzvand Chegini et al. (full citation will be added on publication)
+> Tannaz Chegini et al. (full citation will be added on publication)
 
 The code of the earlier version of this study (notebooks) is kept under the tag `v1.0`.
 
